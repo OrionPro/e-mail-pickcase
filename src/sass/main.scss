@@ -632,6 +632,19 @@ p {
 .footer-social {
 	padding-bottom: 40px;
 
+	&.color {
+		ul {
+			li {
+				margin-right: 30px;
+
+				a {
+					background-color: #ffe8e8;
+					border: 1px solid transparent;
+				}
+			}
+		}
+	}
+
 	ul {
 		padding: 0;
 
